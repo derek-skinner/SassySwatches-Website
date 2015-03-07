@@ -388,24 +388,33 @@ table {
   width: 100%;
   background-color: #fffafa;
   height: 40px;
-  padding: 10px 0 10px 0; }
+  padding: 10px 0 10px 0;
+  border-radius: 0 0 5px 5px; }
 
-/* line 13, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+/* line 14, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
 .variableName {
   position: absolute;
   width: 100%;
   padding-left: 10px;
   font-family: Source Sans Pro, Helvetica, sans-serif; }
 
-/* line 20, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+/* line 21, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
 #sassy {
   font-family: Pacifico;
   color: #cd6699;
   border: 2px #fff; }
 
-/* line 26, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+/* line 27, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
 #swatches {
   font-family: patua one;
   color: #1c3664; }
+
+/* line 32, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+#description {
+  padding-left: 5px; }
+
+/* line 36, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+code {
+  margin-left: 4px; }
 
 /*# sourceMappingURL=main.css.map */
