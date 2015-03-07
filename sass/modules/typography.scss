@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.infoArea {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $Snow;
+  height: 40px;
+  padding: 10px 0 10px 0;
+}
+
+.variableName {
+  position: absolute;
+  width: 100%;
+  padding-left: 10px;
+  font-family: Source Sans Pro, Helvetica, sans-serif;
+}
+
+#sassy {
+  font-family: Pacifico;
+  color: #cd6699;
+  border: 2px #fff;
+}
+
+#swatches {
+  font-family: patua one;
+  color: #1c3664;
+}

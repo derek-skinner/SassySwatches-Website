@@ -1,0 +1,51 @@
+/* line 1, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 7, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
+.masonry {
+  margin: 0 auto;
+  width: 100%; }
+
+/* line 12, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
+.masonry .item {
+  width: 240px;
+  height: 240px;
+  float: left;
+  border: 2px solid #333;
+  border-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border-radius: 5px;
+  border-radius: 5px;
+  border-radius: 5px;
+  border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 27, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
+.item.w2 {
+  width: 240px; }
+
+/* line 31, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
+.item.w3 {
+  width: 240px; }
+
+/* line 35, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
+.item.w4 {
+  width: 240px; }
+
+/* line 39, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
+.item.h2 {
+  height: 200px; }
+
+/* line 43, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
+.item.h3 {
+  height: 260px; }
+
+/* line 47, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
+.item.h4 {
+  height: 360px; }
+
+/*# sourceMappingURL=masonrygrid.css.map */

@@ -1,0 +1,21 @@
+{
+  "name": "Sassy Swatches Website",
+  "version": "0.1.0",
+  "authors": [
+    "Derek Skinner <derek@derekskinner.tv>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1",
+    "masonry": "~3.2.2",
+    "sassy-swatches": "~1.0.0"
+  }
+}

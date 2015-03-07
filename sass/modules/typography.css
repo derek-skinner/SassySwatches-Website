@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+/* line 2, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography.scss */
+.infoArea {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding: 10px 0 10px 0; }
+
+/* line 10, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography.scss */
+.variableName {
+  position: absolute;
+  width: 100%;
+  padding-left: 10px;
+  font-family: Source Sans Pro, Helvetica, sans-serif; }
+
+/*# sourceMappingURL=typography.css.map */
