@@ -417,4 +417,16 @@ table {
 code {
   margin-left: 4px; }
 
+/* line 12, /Users/dskinner/Dropbox/SassySwatches/Website/sass/main.scss */
+.top-bar {
+  background-color: #da3287 !important; }
+
+/* line 16, /Users/dskinner/Dropbox/SassySwatches/Website/sass/main.scss */
+.top-bar ul li a {
+  background-color: #036 !important; }
+
+/* line 20, /Users/dskinner/Dropbox/SassySwatches/Website/sass/main.scss */
+.github-fork-ribbon {
+  background-color: #1a1110 !important; }
+
 /*# sourceMappingURL=main.css.map */

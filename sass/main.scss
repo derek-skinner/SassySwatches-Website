@@ -7,3 +7,16 @@
 @import "modules/sassyswatches";
 //Import Typography Styling
 @import "modules/typography";
+
+//Top Bar Styling
+.top-bar {
+  background-color: $DeepCerise !important;
+} 
+
+.top-bar ul li a {
+  background-color: $DarkMidnightBlue!important;
+}
+
+.github-fork-ribbon {
+background-color: $Licorice !important;
+}
