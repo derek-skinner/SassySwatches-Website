@@ -1,0 +1,12 @@
+.tray {
+position:fixed;
+right:0;
+bottom:0;
+width: 150px;
+height:50%;
+background-color:$Silver;
+border-radius: 5px 0 0 0;
+border-left: 2px solid $Licorice;
+border-top: 2px solid $Licorice;
+z-index:99;
+}

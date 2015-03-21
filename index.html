@@ -21,25 +21,28 @@
 
 <body>
 
-    
- 
-            <header role="banner">
-            <nav class="top-bar" data-topbar>
-              <ul class="title-area">
-                
-              <section class="top-bar-section">
-                <ul class="left">
-                     <li><a href="/">Home</a></li>
-                  <li><a href="/brandcolors">Brand Colors</a></li>
-                  <li><a href="/changelog">Changelog</a></li>
-                </ul>
-              </section>
-            </nav>
+
+
+  <header role="banner">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+
+        <section class="top-bar-section">
+          <ul class="left">
+            <li><a href="/">Home</a>
+            </li>
+            <li><a href="/brandcolors">Brand Colors</a>
+            </li>
+            <li><a href="/changelog">Changelog</a>
+            </li>
+          </ul>
+        </section>
+    </nav>
   </header>
   <div class="row">
     <div class="large-12 medium-8 small-8 large-centered columns">
-    
-        <a href="http://sassyswatch.es"><h2><span id="sassy">Sassy</span> <span id="swatches">Swatches</span></h2></a>
+
+      <a href="http://sassyswatch.es"><h2><span id="sassy">Sassy</span> <span id="swatches">Swatches</span></h2></a>
 
 
 
@@ -854,7 +857,9 @@
 
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
   <script async src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
   <script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
   <script>
     $(document).foundation();
@@ -892,6 +897,17 @@
         animate: true
       });
       $('#masonry').masonry('reload');
+    });
+  </script>
+  <script>
+    $(function () {
+      $(".item").draggable({
+        cursor: "move",
+        containment: "masonry",
+        stack: "div",
+        scroll: false
+      });
+
     });
   </script>
 

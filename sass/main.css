@@ -7,14 +7,14 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 20, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 20, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 29, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 29, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 audio, canvas, video {
   display: inline-block; }
 
@@ -22,7 +22,7 @@ audio, canvas, video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 37, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 37, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -30,7 +30,7 @@ audio:not([controls]) {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 45, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 45, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 [hidden] {
   display: none; }
 
@@ -42,7 +42,7 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 57, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 57, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 html {
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -52,7 +52,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 68, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 68, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 body {
   margin: 0; }
 
@@ -62,14 +62,14 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 78, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 78, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 a:focus {
   outline: thin dotted; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 86, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 86, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 a:active, a:hover {
   outline: 0; }
 
@@ -80,7 +80,7 @@ a:active, a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 97, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 97, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -88,28 +88,28 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 105, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 105, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 113, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 113, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 b, strong {
   font-weight: bold; }
 
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 120, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 120, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 127, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 127, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -121,7 +121,7 @@ hr {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 142, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 142, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 code, kbd, pre, samp {
   font-family: monospace, serif;
   font-size: 1em; }
@@ -129,39 +129,39 @@ code, kbd, pre, samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 150, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 150, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 pre {
   white-space: pre-wrap; }
 
 /**
  * Set consistent quote types.
  */
-/* line 157, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 157, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 164, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 164, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 172, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 172, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-/* line 179, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 179, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 183, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 183, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
@@ -171,14 +171,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 193, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 193, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 img {
   border: 0; }
 
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 200, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 200, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -188,7 +188,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 210, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 210, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 figure {
   margin: 0; }
 
@@ -198,7 +198,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 220, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 220, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 fieldset {
   border: 1px solid #fff;
   margin: 0 2px;
@@ -208,7 +208,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 230, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 230, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -220,7 +220,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 246, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 246, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 button, input, select, textarea {
   font-family: inherit;
   /* 1 */
@@ -233,7 +233,7 @@ button, input, select, textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 262, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 262, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 button, input {
   line-height: normal; }
 
@@ -243,7 +243,7 @@ button, input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 273, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 273, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 button, select {
   text-transform: none; }
 
@@ -254,7 +254,7 @@ button, select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 289, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 289, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -264,7 +264,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 301, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 301, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 button[disabled], html input[disabled] {
   cursor: default; }
 
@@ -272,7 +272,7 @@ button[disabled], html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-/* line 310, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 310, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
@@ -284,7 +284,7 @@ input[type="checkbox"], input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 323, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 323, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -297,14 +297,14 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 339, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 339, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 347, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 347, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -313,7 +313,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 356, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 356, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -326,23 +326,23 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 370, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/normalize */
+/* line 370, /Users/dskinner/Dropbox/SassySwatches/Website/sass/base/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 1, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid */
+/* line 1, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 7, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid */
+/* line 7, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
 .masonry {
   margin: 0 auto;
   width: 100%; }
 
-/* line 12, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid */
+/* line 12, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
 .masonry .item {
   width: 240px;
   height: 240px;
@@ -357,31 +357,44 @@ table {
   border-radius: 5px;
   border-radius: 5px; }
 
-/* line 27, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid */
+/* line 27, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
 .item.w2 {
   width: 240px; }
 
-/* line 31, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid */
+/* line 31, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
 .item.w3 {
   width: 240px; }
 
-/* line 35, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid */
+/* line 35, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
 .item.w4 {
   width: 240px; }
 
-/* line 39, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid */
+/* line 39, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
 .item.h2 {
   height: 200px; }
 
-/* line 43, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid */
+/* line 43, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
 .item.h3 {
   height: 260px; }
 
-/* line 47, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid */
+/* line 47, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/masonrygrid.scss */
 .item.h4 {
   height: 360px; }
 
-/* line 4, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+/* line 1, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/tray.scss */
+.tray {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 150px;
+  height: 50%;
+  background-color: #c0c0c0;
+  border-radius: 5px 0 0 0;
+  border-left: 2px solid #1a1110;
+  border-top: 2px solid #1a1110;
+  z-index: 99; }
+
+/* line 4, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography.scss */
 .infoArea {
   position: absolute;
   bottom: 0;
@@ -391,41 +404,41 @@ table {
   padding: 10px 0 10px 0;
   border-radius: 0 0 5px 5px; }
 
-/* line 14, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+/* line 14, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography.scss */
 .variableName {
   position: absolute;
   width: 100%;
   padding-left: 10px;
   font-family: Source Sans Pro, Helvetica, sans-serif; }
 
-/* line 21, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+/* line 21, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography.scss */
 #sassy {
   font-family: Pacifico;
   color: #cd6699;
   border: 2px #fff; }
 
-/* line 27, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+/* line 27, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography.scss */
 #swatches {
   font-family: patua one;
   color: #1c3664; }
 
-/* line 32, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+/* line 32, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography.scss */
 #description {
   padding-left: 5px; }
 
-/* line 36, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography */
+/* line 36, /Users/dskinner/Dropbox/SassySwatches/Website/sass/modules/typography.scss */
 code {
   margin-left: 4px; }
 
-/* line 12, /Users/dskinner/Dropbox/SassySwatches/Website/sass/main.scss */
+/* line 13, /Users/dskinner/Dropbox/SassySwatches/Website/sass/main.scss */
 .top-bar {
   background-color: #da3287 !important; }
 
-/* line 16, /Users/dskinner/Dropbox/SassySwatches/Website/sass/main.scss */
+/* line 17, /Users/dskinner/Dropbox/SassySwatches/Website/sass/main.scss */
 .top-bar ul li a {
   background-color: #036 !important; }
 
-/* line 20, /Users/dskinner/Dropbox/SassySwatches/Website/sass/main.scss */
+/* line 21, /Users/dskinner/Dropbox/SassySwatches/Website/sass/main.scss */
 .github-fork-ribbon {
   background-color: #1a1110 !important; }
 
